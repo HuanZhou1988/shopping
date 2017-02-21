@@ -1,0 +1,87 @@
+/* heart */
+
+
+
+
+/* sort */
+#sort{
+	position: fixed;
+	top: 48px;
+	right: 0;
+	left: 0;
+	height: 48px;
+	padding: 10px 0;
+	border-bottom: 1px solid orange;
+	background: #999;
+	div{
+		width: 33.3%;
+		height: 100%;
+		float: left;
+		text-align: center;
+		font: 13px/2 "宋体";
+		border-right: 2px solid #ccc;
+		color: #fff;
+	}
+	div:last-child{
+		border:none;
+	}
+}
+
+
+
+/* body */
+.box>div:nth-child(2){
+	margin: 96px 0 54px 0;
+}
+
+
+/* box11 */
+.box11{
+	display: none;
+	margin: 96px 0 54px 0;
+	height: 644px;
+	overflow: auto;
+	display: none;
+	background: #ccf;
+}
+
+.box21{
+	div:nth-child(1){
+	background: #ccb;
+}
+	div:nth-child(2){
+	background: #cc9;
+}
+	div:nth-child(3){
+	background: #fff;
+}
+	div{
+		width: 33.3%;
+		height: 100%;
+		float: left;
+		a{
+			display: block;
+			width: 100%;
+			height: 6%;
+			font: 16px/36px "宋体";
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: none;
+		}
+	}
+}
+.box22{
+	a{
+		width: 100%;
+		display: block;
+		height: 5%;
+		font: 5%/2.5 "宋体";
+		border-bottom: 1px solid #ccb;
+		text-align: center;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+}
+
